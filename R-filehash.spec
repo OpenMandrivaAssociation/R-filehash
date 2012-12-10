@@ -11,8 +11,12 @@ URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
 Requires:         R-methods 
 Requires:         R-utils 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-methods
-BuildRequires:    R-utils 
+BuildRequires:    R-devel
+BuildRequires:    Rmath-devel
+BuildRequires:    texlive-collection-latex
+BuildRequires:    R-methods
+BuildRequires:    R-utils
+BuildRequires:    pkgconfig(lapack)
 
 %description
 Simple key-value database
@@ -45,3 +49,11 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
+
+
+%changelog
+* Mon Feb 20 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.2-1
++ Revision: 777705
+- Import R-filehash
+- Import R-filehash
+
