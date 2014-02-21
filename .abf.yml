@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   filehash_2.2-1.tar.gz: aa6173e31c54e7668767be4717cec91399290ad0
+sources:
+  filehash_2.2-2.tar.gz: 0269dbe40d75b5f094901af2ebfd7e4087e871d9
