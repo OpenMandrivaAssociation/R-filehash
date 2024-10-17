@@ -7,7 +7,7 @@ Release:          2
 Summary:          Simple key-value database
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/filehash_2.2-2.tar.gz
 Requires:         R-methods 
 Requires:         R-utils 
